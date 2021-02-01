@@ -1,7 +1,7 @@
 # Clustering for Netflix Example
 
 # Reading the data file
-movies = read.table("/movieLens.txt", header=FALSE, sep="|",quote="\"")
+movies = read.table("movieLens.txt", header=FALSE, sep="|",quote="\"")
 str(movies)
 # Adding column names
 colnames(movies) = c("ID", "Title", "ReleaseDate", "VideoReleaseDate", "IMDB", "Unknown", "Action", "Adventure", "Animation", "Childrens", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "FilmNoir", "Horror", "Musical", "Mystery", "Romance", "SciFi", "Thriller", "War", "Western")
